@@ -1,0 +1,52 @@
+body{
+   text-align: center;
+   font-family: 'Quicksand', sans-serif;
+}
+
+#main-container {
+    width: 100%;
+}
+
+.choose-btn{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+
+i {
+    color: gray;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 2em;
+}
+
+.score {
+    box-sizing: border-box;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    display: inline-block;
+    border: solid 1px gray;
+    border-radius: 4px;
+    padding-bottom: 10px;
+    color: gray;
+}
+
+span {
+    font-size: 3em;
+    display: inline-block;
+    width: 100%;
+}
+
+#winner{ 
+    border: solid 3px green;
+    color: green;
+    box-shadow: 10px 10px 8px green;
+}
